@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #222831 !important;
+
+  background-image: url('bg.webp');
 }
 
 code {
@@ -10,12 +11,12 @@ code {
 }
 
 .maincon {
-  min-height: 100vh; 
-  width: 100vw; 
+  min-height: 100vh;
+  width: 100vw;
   display: flex;
   padding: 50px 0px;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .box {
@@ -23,9 +24,9 @@ code {
   border: 10px solid #00ADB5;
   border-radius: 12px;
   background-color: #EEEEEE;
-  max-width: 50vw; 
-  width: 100%; 
-  margin: auto; 
+  max-width: 50vw;
+  width: 100%;
+  margin: auto;
 }
 
 
@@ -42,26 +43,30 @@ code {
 .badge {
   width: 70px !important;
 }
-.hola{
+
+.hola {
   margin-left: 2px !important;
 }
-.bg-o{
+
+.bg-o {
   background-color: #393E46 !important;
 }
-.bg-o2{
+
+.bg-o2 {
   background-color: #c5aa11 !important;
   padding: 10px 20px;
   font-Size: 28px;
 }
 
-.bg-blue{
+.bg-blue {
   background-color: #1d577d !important;
 }
-.bg-awq{
+
+.bg-awq {
   background-color: #00ADB5 !important;
 }
 
-.span-o2{
+.span-o2 {
   font-size: 24px !important;
   padding: 10px !important;
 }
